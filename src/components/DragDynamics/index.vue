@@ -2,7 +2,7 @@
   <div class="example">
     <drag-board>
       <draggable-object slot="draggable">
-        <img :src="imgSource" class="child-draggable"/>
+        <img :src="imgSource" class="child-draggable" draggable="false"/>
       </draggable-object>
     </drag-board>
   </div>
@@ -23,7 +23,9 @@ export default {
     DragBoard,
   },
   mounted() {
-    this.imgSource = 'https://maxcdn.icons8.com/Share/icon/Logos//github_21600.png';
+    this.$nextTick(() => {
+      this.imgSource = 'https://maxcdn.icons8.com/Share/icon/Logos//github_21600.png';
+    });
   },
 };
 </script>

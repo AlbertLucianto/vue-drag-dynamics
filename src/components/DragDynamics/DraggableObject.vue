@@ -37,7 +37,6 @@ export default {
       window.addEventListener('mouseup', this.stopDrag);
     },
     onDrag(e) {
-      console.log(e);
       const evt = e.changedTouches ? e.changedTouches[0] : e;
       if (this.dragging) {
         this.position.x = this.lastPosition.x + (evt.pageX - this.start.x);
@@ -66,5 +65,6 @@ export default {
   background: $warmRed;
   border-radius: 50%;
   position: relative;
+  user-select: none;
 }
 </style>
