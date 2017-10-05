@@ -66,5 +66,6 @@ export default {
   border-radius: 50%;
   position: relative;
   user-select: none;
+  box-shadow: 0 1px 20px rgba(0,0,0,0.3);
 }
 </style>

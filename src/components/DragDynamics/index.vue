@@ -4,6 +4,15 @@
       <draggable-object slot="draggable">
         <img :src="imgSource" class="child-draggable" draggable="false"/>
       </draggable-object>
+      <draggable-object slot="draggable">
+        <img :src="imgSource" class="child-draggable" draggable="false"/>
+      </draggable-object>
+      <draggable-object slot="draggable">
+        <img :src="imgSource" class="child-draggable" draggable="false"/>
+      </draggable-object>
+      <draggable-object slot="draggable">
+        <img :src="imgSource" class="child-draggable" draggable="false"/>
+      </draggable-object>
     </drag-board>
   </div>
 </template>
