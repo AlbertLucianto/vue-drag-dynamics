@@ -1,4 +1,4 @@
-# drag-dynamics
+# Vue Drag Dynamics
 
 > Vue.js component for draggable object with dynamics animation
 
